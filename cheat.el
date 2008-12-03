@@ -28,6 +28,10 @@
 ;; sjs 2007.08.21
 ;;  * Cache the list of cheat sheets, update it once a day (configurable).
 ;;  * Strictly complete cheat sheet names.
+;;
+;; TODO: make sure all functions are namespaced under cheat-
+;;
+
 
 (defvar *cheat-host* "cheat.errtheblog.com")
 (defvar *cheat-port* "80")
@@ -50,6 +54,7 @@
 
 ;;; interactive functions
 
+;;;###autoload
 (defun cheat (name &optional silent)
   "Show the specified cheat sheet.
 
