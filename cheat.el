@@ -1,12 +1,7 @@
-;; cheat.el
-;; Time-stamp: <2007-08-22 10:00:04 sjs>
-;;
+;;; cheat.el --- A handy interface to the command line utility cheat
+
 ;; Copyright (c) 2007 Sami Samhuri <sami.samhuri@gmail.com>
-;;
-;; See http://sami.samhuri.net/2007/08/10/cheat-from-emacs for updates.
-;;
-;; License
-;;
+
 ;; This program is free software; you can redistribute it and/or
 ;; modify it under the terms of the GNU General Public License
 ;; as published by the Free Software Foundation; either version 2
@@ -20,11 +15,17 @@
 ;; You should have received a copy of the GNU General Public License
 ;; along with this program; if not, write to the Free Software
 ;; Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
-;;
-;;
-;; Provide a handy interface to cheat.
+
+;;; Commentary:
+
+;; This package provides a handy interface to the command line
+;; utility cheat.
+
 ;; See http://cheat.errtheblog.com for details on cheat itself.
-;;
+;; See http://sami.samhuri.net/2007/08/10/cheat-from-emacs for updates.
+
+;;; Change Log:
+
 ;; sjs 2007.08.21
 ;;  * Cache the list of cheat sheets, update it once a day (configurable).
 ;;  * Strictly complete cheat sheet names.
